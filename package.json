@@ -1,6 +1,6 @@
 {
   "name": "@pixelmatters/stylelint-config-pixelmatters",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Stylelint config for usage in Pixelmatters projects",
   "main": "index.js",
   "repository": {
