@@ -1,4 +1,4 @@
-# prettier-config-pixelmatters
+# stylelint-config-pixelmatters
 
 > A Stylelint config standard for Pixelmatters projects
 
