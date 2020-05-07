@@ -1,8 +1,8 @@
 # prettier-config-pixelmatters
 
-> A Prettier config standard for Pixelmatters projects
+> A Stylelint config standard for Pixelmatters projects
 
-This is a Prettier config that you can use in your projects.
+This is a Stylelint config that you can use in your projects.
 
 ## Setup
 
@@ -23,13 +23,21 @@ If using Yarn:
 2. Run the following code in the terminal on the root of your project:
 
 ```shell
-yarn add @pixelmatters/prettier-config-pixelmatters --dev
+yarn add @pixelmatters/stylelint-config-pixelmatters --dev
 ```
 
-3. Add the following code to your package.json file:
+3. Add all the missing peer dependencies:
 
-```json
-"prettier": "@pixelmatters/prettier-config-pixelmatters",
+```shell
+yarn add stylelint-config-recess-order stylelint-config-standard --dev
+```
+
+4. Create a `.stylelintrc.js` in the root of your project and add the following code:
+
+```js
+module.exports = {
+  extends: '@pixelmatters/stylelint-config-pixelmatters',
+};
 ```
 
 ### **NPM**
@@ -45,13 +53,21 @@ registry=https://npm.pkg.github.com/Pixelmatters
 2. Run the following code in the terminal on the root of your project:
 
 ```shell
-npm install @pixelmatters/prettier-config-pixelmatters --save-dev
+npm install @pixelmatters/stylelint-config-pixelmatters --save-dev
 ```
 
-3. Add the following code to your package.json file:
+3. Add all the missing peer dependencies:
 
-```json
-"prettier": "@pixelmatters/prettier-config-pixelmatters",
+```shell
+npm install stylelint-config-recess-order stylelint-config-standard --save-dev
+```
+
+4. Create a `.stylelintrc.js` in the root of your project and add the following code:
+
+```js
+module.exports = {
+  extends: '@pixelmatters/stylelint-config-pixelmatters',
+};
 ```
 
 ---
