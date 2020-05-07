@@ -1,0 +1,26 @@
+{
+  "name": "@pixelmatters/stylelint-config-pixelmatters",
+  "version": "1.0.0",
+  "description": "Stylelint config for usage in Pixelmatters projects",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Pixelmatters/stylelint-config-pixelmatters.git"
+  },
+  "keywords": [
+    "stylelint-config",
+    "stylelint"
+  ],
+  "author": "Pixelmatters",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "devDependencies": {
+    "stylelint-config-recess-order": ">= 2.0.4",
+    "stylelint-config-standard": ">= 20.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Pixelmatters/stylelint-config-pixelmatters/issues"
+  },
+  "homepage": "https://github.com/Pixelmatters/stylelint-config-pixelmatters#readme"
+}
