@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Pixelmatters/stylelint-config-pixelmatters/issues"
   },
-  "homepage": "https://github.com/Pixelmatters/stylelint-config-pixelmatters#readme"
+  "homepage": "https://github.com/Pixelmatters/stylelint-config-pixelmatters#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
