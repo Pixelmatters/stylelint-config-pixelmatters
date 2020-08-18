@@ -17,7 +17,7 @@ This is a Stylelint config that you can use in your projects.
   <a href="https://www.npmjs.com/package/@pixelmatters/stylelint-config-pixelmatters">
     <img src="https://img.shields.io/npm/v/@pixelmatters/stylelint-config-pixelmatters.svg" alt="Current npm package version." />
   </a>
-  <a href="https://gatsbyjs.org/contributing/how-to-contribute/">
+  <a href="https://github.com/Pixelmatters/stylelint-config-pixelmatters/blob/master/CONTRIBUTING.md">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
   </a>
   <a href="https://twitter.com/intent/follow?screen_name=pixelmatters_">
