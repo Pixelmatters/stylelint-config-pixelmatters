@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/Pixelmatters/stylelint-config-pixelmatters/compare/v1.0.1...v1.0.2) (2020-08-18)
+
+
+### Bug Fixes
+
+* **config:** add publish config to package.json ([0a08f5c](https://github.com/Pixelmatters/stylelint-config-pixelmatters/commit/0a08f5c8e858d43e7786b0d6cb390d4c5cb969ce))
+
 ## [1.0.1](https://github.com/Pixelmatters/stylelint-config-pixelmatters/compare/v1.0.0...v1.0.1) (2020-08-18)
 
 
