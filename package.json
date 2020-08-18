@@ -12,9 +12,6 @@
     "stylelint"
   ],
   "author": "Pixelmatters",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "peerDependencies": {
     "stylelint-config-recess-order": ">= 2.0.4",
     "stylelint-config-standard": ">= 20.0.0"
