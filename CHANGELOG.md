@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/Pixelmatters/stylelint-config-pixelmatters/compare/v1.0.0...v1.0.1) (2020-08-18)
+
+
+### Bug Fixes
+
+* **config:** remove github registry from package.json ([355db98](https://github.com/Pixelmatters/stylelint-config-pixelmatters/commit/355db98efbf62679cfb28b19f4acc38500c8e9ea))
+
 # 1.0.0 (2020-08-18)
 
 
