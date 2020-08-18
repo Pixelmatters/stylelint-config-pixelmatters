@@ -1,38 +1,51 @@
-# stylelint-config-pixelmatters
+<h1 align="center">
+  stylelint-config-pixelmatters
+</h1>
 
-> A Stylelint config standard for Pixelmatters projects
+<h3 align="center">
+  A Stylelint config standard for Pixelmatters projects
+</h3>
 
+<p align="center">
 This is a Stylelint config that you can use in your projects.
+</p>
 
-## Setup
+<p align="center">
+  <a href="https://github.com/Pixelmatters/stylelint-config-pixelmatters/blob/master/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="stylelint-config-pixelmatters is released under the MIT license." />
+  </a>
+  <a href="https://www.npmjs.com/package/@pixelmatters/stylelint-config-pixelmatters">
+    <img src="https://img.shields.io/npm/v/@pixelmatters/stylelint-config-pixelmatters.svg" alt="Current npm package version." />
+  </a>
+  <a href="https://gatsbyjs.org/contributing/how-to-contribute/">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
+  </a>
+  <a href="https://twitter.com/intent/follow?screen_name=pixelmatters_">
+    <img src="https://img.shields.io/twitter/follow/pixelmatters_.svg?label=Follow%20@pixelmatters_" alt="Follow @pixelmatters_" />
+  </a>
+</p>
 
-To install this Github Package, first you need to authenticate to Github Packages, following the instructions [here](https://help.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-npm-for-use-with-github-packages#authenticating-to-github-packages)
+## 🚀 Get Up and Running
 
-After authentication, the steps are different if you’re using **npm** or **yarn** to manage your packages.
+You can install this package using either **npm** or **yarn**. 
 
 ### **Yarn**
 
 If using Yarn:
 
-1. Add an `.yarnrc` file to the root of your project (where you keep your `package.json` file) and add the following text (this step is unnecessary if you've already used Pixelmatters' Github Packages in your project):
-
-```
-"@pixelmatters:registry" "https://npm.pkg.github.com"
-```
-
-2. Run the following code in the terminal on the root of your project:
+1. Install the package as a development dependency:
 
 ```shell
 yarn add @pixelmatters/stylelint-config-pixelmatters --dev
 ```
 
-3. Add all the missing peer dependencies:
+2. Add all the missing peer dependencies:
 
 ```shell
 yarn add stylelint-config-recess-order stylelint-config-standard --dev
 ```
 
-4. Create a `.stylelintrc.js` in the root of your project and add the following code:
+3. Create a `.stylelintrc.js` in the root of your project and add the following code:
 
 ```js
 module.exports = {
@@ -44,25 +57,19 @@ module.exports = {
 
 If using NPM:
 
-1. Add an `.npmrc` file to the root of your project (where you keep your `package.json` file) and add the following text (this step is unnecessary if you've already used Pixelmatters' Github Packages in your project):
-
-```
-registry=https://npm.pkg.github.com/Pixelmatters
-```
-
-2. Run the following code in the terminal on the root of your project:
+1. Install the package as a development dependency::
 
 ```shell
 npm install @pixelmatters/stylelint-config-pixelmatters --save-dev
 ```
 
-3. Add all the missing peer dependencies:
+2. Add all the missing peer dependencies:
 
 ```shell
 npm install stylelint-config-recess-order stylelint-config-standard --save-dev
 ```
 
-4. Create a `.stylelintrc.js` in the root of your project and add the following code:
+3. Create a `.stylelintrc.js` in the root of your project and add the following code:
 
 ```js
 module.exports = {
@@ -70,6 +77,14 @@ module.exports = {
 };
 ```
 
----
-
 At this point you should be good to go 👍
+
+## 🤝 How to Contribute
+
+Whether you're helping us fix bugs, improve the docs, or spread the word, thank you! 💪 🧡
+
+Check out our [**Contributing Guide**](https://github.com/Pixelmatters/stylelint-config-pixelmatters/blob/master/CONTRIBUTING.md) for ideas on contributing and setup steps.
+
+## :memo: License
+
+Licensed under the [MIT License](./LICENSE).
