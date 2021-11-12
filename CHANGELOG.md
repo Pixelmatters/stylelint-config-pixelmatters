@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/Pixelmatters/stylelint-config-pixelmatters/compare/v1.0.2...v2.0.0) (2021-11-12)
+
+
+### Features
+
+* update dependencies to support Stylelint v14 ([883c07e](https://github.com/Pixelmatters/stylelint-config-pixelmatters/commit/883c07e392b60ab41fb44a9498eb13b4605cb4d0))
+
+
+### BREAKING CHANGES
+
+* The minimum supported version of Stylelint is now >=14
+
 ## [1.0.2](https://github.com/Pixelmatters/stylelint-config-pixelmatters/compare/v1.0.1...v1.0.2) (2020-08-18)
 
 
