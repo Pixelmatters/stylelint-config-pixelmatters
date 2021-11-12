@@ -27,7 +27,7 @@ This is a Stylelint config that you can use in your projects.
 
 ## 🚀 Get Up and Running
 
-You can install this package using either **npm** or **yarn**. 
+You can install this package using either **npm** or **yarn**.
 
 ### **Yarn**
 
@@ -42,7 +42,7 @@ yarn add @pixelmatters/stylelint-config-pixelmatters --dev
 2. Add all the missing peer dependencies:
 
 ```shell
-yarn add stylelint-config-recess-order stylelint-config-standard --dev
+npx install-peerdeps @pixelmatters/stylelint-config-pixelmatters --dev --yarn
 ```
 
 3. Create a `.stylelintrc.js` in the root of your project and add the following code:
@@ -66,7 +66,7 @@ npm install @pixelmatters/stylelint-config-pixelmatters --save-dev
 2. Add all the missing peer dependencies:
 
 ```shell
-npm install stylelint-config-recess-order stylelint-config-standard --save-dev
+npx install-peerdeps @pixelmatters/stylelint-config-pixelmatters --dev
 ```
 
 3. Create a `.stylelintrc.js` in the root of your project and add the following code:

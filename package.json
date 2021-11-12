@@ -13,8 +13,8 @@
   ],
   "author": "Pixelmatters",
   "peerDependencies": {
-    "stylelint-config-recess-order": ">= 2.0.4",
-    "stylelint-config-standard": ">= 20.0.0"
+    "stylelint-config-recess-order": ">= 3.0.0",
+    "stylelint-config-standard": ">= 23.0.0"
   },
   "bugs": {
     "url": "https://github.com/Pixelmatters/stylelint-config-pixelmatters/issues"
